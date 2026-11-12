@@ -1,0 +1,27 @@
+name: Bug Report
+description: File a bug report or reproducible defect.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Bug Summary
+      description: Concise description of the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: Exact steps or code snippet reproducing the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment Info
+      description: OS, architecture, Rust version, target node type.
+    validations:
+      required: false
+

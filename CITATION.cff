@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you utilize this framework or cite its research findings, please cite it as below."
+title: "ai-native-runtime: A Research-First Distributed AI-Native Application Runtime"
+authors:
+  - family-names: "AI-Native Runtime Research Group"
+date-released: 2026-11-13
+url: "https://github.com/ai-native-runtime/ai-native-runtime"
+keywords:
+  - "distributed-systems"
+  - "ai-native"
+  - "local-first"
+  - "edge-computing"
+  - "application-frameworks"
+  - "crdt"
+license: "Apache-2.0"
+

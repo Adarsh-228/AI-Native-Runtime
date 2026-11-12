@@ -1,0 +1,31 @@
+name: Research Proposal
+description: Propose an empirical study, literature review, or architectural hypothesis.
+title: "[Research]: "
+labels: ["research", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting a research proposal to `ai-native-runtime`.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Research Problem or Gap
+      description: What technical limitation or open question does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: prior_art
+    attributes:
+      label: Prior Art & Existing Solutions
+      description: What solutions or papers currently exist in this domain?
+    validations:
+      required: true
+  - type: textarea
+    id: methodology
+    attributes:
+      label: Proposed Methodology or Experiment
+      description: How should this hypothesis be experimentally tested or verified?
+    validations:
+      required: true
+

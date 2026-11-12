@@ -1,0 +1,20 @@
+name: Feature Request
+description: Propose an architectural or capability enhancement.
+title: "[Feature]: "
+labels: ["enhancement", "triage"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: Clear description of the proposed capability.
+    validations:
+      required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: Technical Justification
+      description: Why can this not be solved using existing crates or tools?
+    validations:
+      required: true
+
