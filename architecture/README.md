@@ -35,3 +35,6 @@ This directory contains high-level and detailed architectural documentation, sub
 - **Control Plane:** Node discovery, trust attestation, telemetry, and placement negotiations. Built to withstand network partitions without halting the local data plane.
 - **Data Plane:** High-throughput streaming, zero-copy serialization, tensor execution, and state replication.
 
+Detailed design: [`control-plane-data-plane.md`](control-plane-data-plane.md)
+
+

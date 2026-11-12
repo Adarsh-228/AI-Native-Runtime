@@ -4,6 +4,7 @@ The RFC process is the formal mechanism for proposing, reviewing, and reaching c
 
 ## Workflow States
 - `rfcs/proposed/`: RFCs currently open for public review and feedback.
+  - [`RFC-0001`](proposed/0001-declarative-task-graph.md): Declarative Task Graph and Zero-Copy Task Descriptor Protocol.
 - `rfcs/accepted/`: RFCs that have reached technical consensus and are scheduled for implementation.
 - `rfcs/rejected/`: RFCs that were considered but rejected with documented rationales.
 - `rfcs/withdrawn/`: RFCs withdrawn by the author.

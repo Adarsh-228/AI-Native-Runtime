@@ -2,6 +2,7 @@
 
 <p align="left">
   <a href="https://github.com/Adarsh-228/ai-native-runtime/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-555555.svg?style=flat-square" alt="License: Apache 2.0" /></a>
+  <a href="https://github.com/Adarsh-228/ai-native-runtime/actions"><img src="https://img.shields.io/badge/CI-Specification_Suite-444444.svg?style=flat-square" alt="CI: Specification Suite" /></a>
   <a href="ROADMAP.md"><img src="https://img.shields.io/badge/Stage-1_%3A_Research_%26_Specification-444444.svg?style=flat-square" alt="Stage 1: Research" /></a>
   <a href="adr/decisions/0002-runtime-language.md"><img src="https://img.shields.io/badge/Core_Engine-Rust-333333.svg?style=flat-square" alt="Engine: Rust" /></a>
   <a href="research/00-project-charter/vision.md"><img src="https://img.shields.io/badge/Architecture-Local--First_%26_Distributed-666666.svg?style=flat-square" alt="Architecture" /></a>
@@ -265,6 +266,17 @@ Key architectural choices are formally documented in [`adr/decisions/`](adr/deci
 * [`ADR-0001`](adr/decisions/0001-monorepo-strategy.md): Modular monorepo strategy for synchronized specifications and runtime crates.
 * [`ADR-0002`](adr/decisions/0002-runtime-language.md): Selection of **Rust** as foundational runtime language for zero-cost abstractions, memory safety, and cross-platform FFI.
 * [`ADR-0003`](adr/decisions/0003-execution-model.md): Policy-aware execution model establishing non-negotiable `LocalOnly` and `LocalFirst` invariants.
+
+---
+
+## Active Technical Specifications & RFCs
+
+Formal specifications and normative change proposals guiding Phase 1–3 development:
+* **[`SPEC-0001`](specs/execution-model/SPEC-0001-task-lifecycle-and-placement.md):** Task Lifecycle and Policy-Aware Placement Specification (RFC 2119 normative state machine).
+* **[`SPEC-0002`](specs/application-model/SPEC-0002-application-manifest.md):** Application Manifest Specification (`anr.toml` schema for models, storage, and trust domains).
+* **[`RFC-0001`](rfcs/proposed/0001-declarative-task-graph.md):** Declarative Task Graph and Zero-Copy Task Descriptor Protocol.
+* **[`ARCH-0001`](architecture/control-plane-data-plane.md):** Control Plane and Data Plane Separation Architecture.
+
 
 ---
 
