@@ -1,8 +1,8 @@
 # AI-Native Distributed Application Runtime (`ai-native-runtime`)
 
 <p align="left">
-  <a href="https://github.com/Adarsh-228/ai-native-runtime/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-555555.svg?style=flat-square" alt="License: Apache 2.0" /></a>
-  <a href="https://github.com/Adarsh-228/ai-native-runtime/actions"><img src="https://img.shields.io/badge/CI-Specification_Suite-444444.svg?style=flat-square" alt="CI: Specification Suite" /></a>
+  <a href="https://github.com/Adarsh-228/AI-Native-Runtime/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-555555.svg?style=flat-square" alt="License: Apache 2.0" /></a>
+  <a href="https://github.com/Adarsh-228/AI-Native-Runtime/actions"><img src="https://img.shields.io/badge/CI-Specification_Suite-444444.svg?style=flat-square" alt="CI: Specification Suite" /></a>
   <a href="ROADMAP.md"><img src="https://img.shields.io/badge/Stage-1_%3A_Research_%26_Specification-444444.svg?style=flat-square" alt="Stage 1: Research" /></a>
   <a href="adr/decisions/0002-runtime-language.md"><img src="https://img.shields.io/badge/Core_Engine-Rust-333333.svg?style=flat-square" alt="Engine: Rust" /></a>
   <a href="research/00-project-charter/vision.md"><img src="https://img.shields.io/badge/Architecture-Local--First_%26_Distributed-666666.svg?style=flat-square" alt="Architecture" /></a>
@@ -291,7 +291,7 @@ If you reference this research framework, utilize its hypotheses, or build upon 
   year         = {2026},
   publisher    = {GitHub},
   journal      = {GitHub repository},
-  howpublished = {\url{https://github.com/Adarsh-228/ai-native-runtime}},
+  howpublished = {\url{https://github.com/Adarsh-228/AI-Native-Runtime}},
   note         = {Open-source research and engineering specification}
 }
 ```
