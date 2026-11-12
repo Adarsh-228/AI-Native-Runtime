@@ -89,3 +89,4 @@ Defines AI models managed natively by the runtime kernel.
 * `alias` (String, Required): Identifier used in application task graphs.
 * `source` (Enum): `local-embedded` or `remote-provider`.
 * `accelerator_preference` (Array of Strings): Priority order for hardware backend selection.
+

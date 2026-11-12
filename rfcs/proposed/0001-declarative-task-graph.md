@@ -91,3 +91,4 @@ This is the foundational execution protocol for `0.1.0-alpha`. Forward compatibi
 
 - What is the optimal eviction policy for intermediate graph buffers on battery-constrained mobile nodes?
 - Should dynamic DAG branch expansion (loops, conditional jumps) be resolved purely on the scheduler node or delegated to local sub-graphs?
+

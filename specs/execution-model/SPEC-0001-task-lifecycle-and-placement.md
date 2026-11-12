@@ -122,3 +122,4 @@ If node $n^*$ disconnects during state `Executing`:
 1. If the task is idempotent, the scheduler **SHALL** reschedule it on an alternate candidate node or locally.
 2. If the task produced partial mutations, those mutations **MUST** remain uncommitted until verified by CRDT vector clocks.
 3. If no candidate nodes remain reachable, the task **MUST** fall back to local execution if permitted by policy.
+

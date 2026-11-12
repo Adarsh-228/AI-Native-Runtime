@@ -1,0 +1,20 @@
+{
+  "default": true,
+  "MD013": false, // Line length (disabled for academic papers, tables, and math equations)
+  "MD033": {      // Allow specific inline HTML elements for GitHub presentation & badges
+    "allowed_elements": [
+      "p",
+      "a",
+      "img",
+      "details",
+      "summary",
+      "br"
+    ]
+  },
+  "MD024": {      // Allow duplicate headings if in different sibling hierarchies
+    "siblings_only": true
+  },
+  "MD029": false, // Ordered list item prefixes
+  "MD036": false, // Emphasis used instead of heading
+  "MD041": false  // First line in file should be a top-level heading
+}

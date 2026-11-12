@@ -69,3 +69,4 @@ When an application invokes an offloadable AI task:
 2. **Handshake Phase:** The edge node responds with a signed execution voucher indicating reserved capacity.
 3. **Data Phase:** The local node streams serialized inputs directly to the edge worker over a dedicated QUIC data stream.
 4. **Return & Convergence:** The result buffer returns over the data stream and commits atomically to local state.
+
